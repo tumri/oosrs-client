@@ -30,7 +30,7 @@ buildscript {
         mavenLocal()
         gradlePluginPortal()
         maven(url = "https://repo.openosrs.com/repository/maven/")
-        maven(url = "https://raw.githubusercontent.com/open-osrs/hosting/master")
+        maven(url = "https://raw.githubusercontent.com/tumri/oosrs-hosting/master")
     }
     dependencies {
         classpath("org.ajoberstar.grgit:grgit-core:4.1.0")
@@ -96,7 +96,7 @@ subprojects {
         exclusiveContent {
             forRepository {
                 maven {
-                    url = uri("https://raw.githubusercontent.com/open-osrs/hosting/master")
+                    url = uri("https://raw.githubusercontent.com/tumri/oosrs-hosting/master")
                 }
             }
             filter {

@@ -29,7 +29,7 @@ plugins {
 
 repositories {
     jcenter()
-    maven(url = "https://raw.githubusercontent.com/open-osrs/hosting/master")
+    maven(url = "https://raw.githubusercontent.com/tumri/oosrs-hosting/master")
 }
 
 dependencies {
